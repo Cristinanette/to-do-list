@@ -1,0 +1,14 @@
+/* Add application styles & imports to this file! */
+
+* {
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+.flexRow {
+  display: flex;
+}
+
+.button {
+  cursor: pointer;
+}

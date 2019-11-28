@@ -1,0 +1,28 @@
+.containerTask {
+  border: 2px solid pink;
+  border-radius: 25px;
+  margin: 3vh 0;
+  align-items : center;
+  justify-content: space-between;
+  padding: 0 4vw;
+}
+
+.rondDecoche {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: solid 2px pink;
+  background-color: white;
+}
+
+.rondCoche {
+  width: 30px;
+  height: 30px;
+  border: solid 2px pink;
+  border-radius: 100%;
+  background-color: pink;
+}
+
+.rondCoche:hover {
+  background-color: lightcoral;
+}

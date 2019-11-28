@@ -1,0 +1,5 @@
+<div class='flexRow containerTask'>
+  <p>{{tache.title}}</p>
+  <div *ngIf="!tache.isDone" (click)="invertDoneStatus()" class='rondDecoche button'></div>
+  <div *ngIf="tache.isDone" (click)="invertDoneStatus()" class='rondCoche button'></div>
+</div>

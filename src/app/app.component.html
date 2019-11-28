@@ -1,0 +1,16 @@
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<div class='flexRow header'>
+  <h1>TO DO LIST</h1>
+  <div class='flexRow'>
+    <h2>add</h2>
+    <img (click)="managePopup()" class='button buttonAdd' src='https://image.flaticon.com/icons/svg/149/149162.svg'/>
+  </div>
+</div>
+
+<app-task *ngFor="let element of listeTaches" [tache]="element"></app-task>
+
+<div *ngIf="isPopupOpen" class="popup">
+  <h3 style="text-align:center">Nouvelle tâche</h3>
+  <input type="text" placeholder="Titre" [(ngModel)]="nouveauTitre" (keyup.enter)="add()"/>
+</div>

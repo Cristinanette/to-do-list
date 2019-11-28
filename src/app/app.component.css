@@ -1,0 +1,29 @@
+.header {
+  justify-content: space-between;
+  padding: 10px;
+}
+
+h2 {
+  padding: 7px;
+}
+
+p {
+  font-family: Lato;
+}
+
+.buttonAdd {
+  width: 7vw;
+}
+
+.popup {
+  position: absolute;
+  width: 60vw;
+  height: 30vh;
+  left: 20vw;
+  top: 30vh;
+  background-color: white;
+  padding: 2vw;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 5px;
+}
